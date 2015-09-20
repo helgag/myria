@@ -1,0 +1,17 @@
+{
+  "relationKey" : {
+    "userName" : "jwang",
+    "programName" : "sg",
+    "relationName" : "arc"
+  },
+  "schema" : {
+    "columnTypes" : ["LONG_TYPE", "LONG_TYPE"],
+    "columnNames" : ["node_id_1", "node_id_2"]
+  },
+  "source" : {
+    "dataType" : "File",
+    "filename" : "/path/to/your/myria/jsonQueries/same_generation_jwang/arc.csv"
+  },
+  "overwrite": true,
+  "delimiter": " "
+}

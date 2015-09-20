@@ -1,0 +1,17 @@
+{
+  "relationKey" : {
+    "userName" : "jwang",
+    "programName" : "sp",
+    "relationName" : "arc"
+  },
+  "schema" : {
+    "columnTypes" : ["LONG_TYPE", "LONG_TYPE", "LONG_TYPE"],
+    "columnNames" : ["node_id_1", "node_id_2", "dist"]
+  },
+  "source" : {
+    "dataType" : "File",
+    "filename" : "/path/to/your/myria/jsonQueries/shortest_paths_jwang/arc.csv"
+  },
+  "overwrite": true,
+  "delimiter": " "
+}
